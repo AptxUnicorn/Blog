@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/PixelOperatorMonoHB8.ttf);
+}
+
+$font-1: "font-1", sans-serif;
+
+$color-1: #1e3fac;
+$color-2: rgb(24, 84, 139);
+$color-3: #c9b718;
+$backgroundcolor: rgb(255, 255, 255);
+$rightcolor : rgb(18, 132, 224);
+$leftcolor : rgb(73, 223, 13) ;
+$img-background: url('https://i0.wp.com/thumbs.gfycat.com/AcceptableGreedyDutchsmoushond-size_restricted.gif');
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-1;
+  overflow: hidden;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:any-link {
+  text-decoration: none;
+  font-family: $font-1;
+}
