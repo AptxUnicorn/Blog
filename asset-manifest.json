@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f324b861.css",
+    "main.js": "/static/js/main.ec412367.js",
+    "static/media/PixelOperatorMonoHB8.ttf": "/static/media/PixelOperatorMonoHB8.b85968eeeb59dff89b68.ttf",
+    "index.html": "/index.html",
+    "main.f324b861.css.map": "/static/css/main.f324b861.css.map",
+    "main.ec412367.js.map": "/static/js/main.ec412367.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f324b861.css",
+    "static/js/main.ec412367.js"
+  ]
+}
