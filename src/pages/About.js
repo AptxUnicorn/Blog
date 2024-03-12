@@ -2,10 +2,13 @@ import React from 'react';
 import Body from "../components/Body";
 import RightSideBarContent from '../components/RightSideBarContent';
 import PaletteMapper from '../components/PaletteMapper';
+import LeftSideBarContent from '../components/LeftSideBarContent';
 
 const About = () => {
 
-    const page = { lcontent: "Cette page vous permet de modifier le theme du blog", rcontent: < RightSideBarContent />, maincontent: <PaletteMapper /> }
+    const page = {
+        lcontent: <LeftSideBarContent text="Cette page permet de modifier le theme du blog" />, rcontent: < RightSideBarContent />, maincontent: <PaletteMapper />
+    }
 
     return (
         <div>

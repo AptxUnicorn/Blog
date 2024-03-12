@@ -23,13 +23,13 @@ const Navigation = () => {
         <div>
             <div className="navbar" style={boxColorCss(4)} >
                 <ul>
-                    <NavLink to="/accueil" style={letterColorCss(0)} className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                    <NavLink to="/Blog/Mainpage" style={letterColorCss(0)} className={(nav) => (nav.isActive ? "nav-active" : "")}>
                         <li>ACCUEIL</li>
                     </NavLink>
-                    <NavLink to="/about" style={letterColorCss(0)} className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                    <NavLink to="/Blog/About" style={letterColorCss(0)} className={(nav) => (nav.isActive ? "nav-active" : "")}>
                         <li>A PROPOS</li>
                     </NavLink>
-                    <NavLink to="/gallery" style={letterColorCss(0)} className={(nav) => (nav.isActive ? "nav-active" : "")}>
+                    <NavLink to="/Blog/gallery" style={letterColorCss(0)} className={(nav) => (nav.isActive ? "nav-active" : "")}>
                         <li>GALLERY</li>
                     </NavLink>
                 </ul>

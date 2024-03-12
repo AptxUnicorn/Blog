@@ -17,16 +17,18 @@ const App = () => {
   }
 
   return (
-    <div className='flex' style={boxColorCss(2)}>
-      <div className='container'>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<About />} />
-            <Route path="*" element={<HomePage />} />
-            <Route path="/photos" element={<Photos />} />
-          </Routes>
-        </BrowserRouter>
+    <div>
+      <div className='flex' style={boxColorCss(2)}>
+        <div className='container'>
+          <BrowserRouter>
+            <Routes>
+              <Route path="/Blog/Mainpage" element={<HomePage />} />
+              <Route path="/Blog/about" element={<About />} />
+              <Route path="/Blog/gallery" element={<Photos />} />
+              <Route path="*" element={<HomePage />} />
+            </Routes>
+          </BrowserRouter>
+        </div>
       </div>
     </div>
   );
