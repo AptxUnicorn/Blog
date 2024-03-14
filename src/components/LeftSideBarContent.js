@@ -14,6 +14,7 @@ const LeftSideBarContent = (props) => {
     const letterColorCss = (index) => {
         return {
             color: theme[index].color,
+            FontFace: theme[5]
         };
     }
 

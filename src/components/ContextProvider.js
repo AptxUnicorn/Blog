@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Context from "./Context";
 
 const ContextProvider = ({ children }) => {
+
     const [theme, setTheme] = useState([
         { id: 0, name: 'color1', color: "#d1313d" },
         { id: 1, name: 'color2', color: "#e5625c" },
@@ -10,8 +11,12 @@ const ContextProvider = ({ children }) => {
         { id: 4, name: 'color5', color: "#615375" },
     ]);
 
+    const [police, setPolice] = useState([
+        { policename: "nom de la police" }
+    ])
+
     return (
-        <Context.Provider value={{ theme, setTheme }}>
+        <Context.Provider value={{ theme, setTheme, police, setPolice }}>
             {children}
         </Context.Provider>
     );

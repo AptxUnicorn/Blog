@@ -16,8 +16,9 @@ const App = () => {
     };
   }
 
+
   return (
-    <div>
+    <div >
       <div className='flex' style={boxColorCss(2)}>
         <div className='container'>
           <BrowserRouter>
