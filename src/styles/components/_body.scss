@@ -79,7 +79,14 @@ li {
 }
 
 .selector{
-    width: 45%;
-    height: 300px;
+    width: 100%;
+    height: 450px;
     overflow-y: scroll;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }

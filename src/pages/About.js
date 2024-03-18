@@ -3,6 +3,7 @@ import Body from "../components/Body";
 import RightSideBarContent from '../components/RightSideBarContent';
 import PaletteMapper from '../components/PaletteMapper';
 import LeftSideBarContent from '../components/LeftSideBarContent';
+
 const About = () => {
 
     const page = {

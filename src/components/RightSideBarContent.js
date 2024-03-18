@@ -5,12 +5,6 @@ const RightSideBarContent = () => {
 
     const { theme } = useContext(Context);
 
-    const picsou = (index) => {
-        return {
-            borderColor: theme[index].color,
-        }
-    }
-
     const boxColorCss = (index) => {
         return {
             borderColor: theme[index].color,
@@ -33,7 +27,7 @@ const RightSideBarContent = () => {
                     <a href="https://github.com/AptxUnicorn" style={letterColorCss(0)}> GITHUB </a>
                 </div>
                 <div className='boxing' style={boxColorCss(4)}>
-
+                    <a href="https://github.com/AptxUnicorn/Blog" style={letterColorCss(0)}> REPOSITORIE </a>
                 </div>
             </div>
         </div >

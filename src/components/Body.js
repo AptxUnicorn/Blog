@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Navigation from "./Navigation";
 import Context from './Context';
-import { useContext } from 'react';
 
 const Body = ({ props }) => {
 
