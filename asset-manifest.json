@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Blog/static/css/main.3cc883ed.css",
-    "main.js": "/Blog/static/js/main.68ea942e.js",
+    "main.css": "/Blog/static/css/main.30de1ed2.css",
+    "main.js": "/Blog/static/js/main.ebae1878.js",
     "static/media/Arkhip-Regular.ttf": "/Blog/static/media/Arkhip-Regular.855b5cf791248fa8de69.ttf",
     "index.html": "/Blog/index.html",
-    "main.3cc883ed.css.map": "/Blog/static/css/main.3cc883ed.css.map",
-    "main.68ea942e.js.map": "/Blog/static/js/main.68ea942e.js.map"
+    "main.30de1ed2.css.map": "/Blog/static/css/main.30de1ed2.css.map",
+    "main.ebae1878.js.map": "/Blog/static/js/main.ebae1878.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cc883ed.css",
-    "static/js/main.68ea942e.js"
+    "static/css/main.30de1ed2.css",
+    "static/js/main.ebae1878.js"
   ]
 }
