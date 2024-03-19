@@ -7,7 +7,7 @@ import LeftSideBarContent from '../components/LeftSideBarContent';
 const About = () => {
 
     const page = {
-        lcontent: <LeftSideBarContent text="Cette page permet de modifier le theme du blog" />, rcontent: < RightSideBarContent />, maincontent: <div > <PaletteMapper /> <h2> La police du blog est <a href='https://www.dafont.com/fr/arkhip.font'> Arkhip</a> </h2></div>
+        lcontent: <LeftSideBarContent text="Cette page permet de modifier le theme du blog" page='1' />, rcontent: < RightSideBarContent />, maincontent: <PaletteMapper />
     }
 
     return (

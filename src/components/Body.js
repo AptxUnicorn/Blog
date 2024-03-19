@@ -12,10 +12,19 @@ const Body = ({ props }) => {
         };
     }
 
+    const headerColorCss = (index) => {
+        return {
+            backgroundColor: theme[index].color,
+            color: theme[index + 2].color,
+        }
+    }
+
     return (
         <div>
             <div className='container' style={boxColorCss(2)}>
-                <div className='header'></div>
+                <div className='header' style={headerColorCss(0)}>
+                    <h1> BLOG </h1>
+                </div>
                 <Navigation />
                 <div className='flex' style={boxColorCss(2)}>
                     <div className='main' style={boxColorCss(1)}>

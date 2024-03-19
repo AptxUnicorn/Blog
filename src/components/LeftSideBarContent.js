@@ -11,19 +11,26 @@ const LeftSideBarContent = (props) => {
             backgroundColor: theme[index - 2].color,
         };
     }
+
     const letterColorCss = (index) => {
         return {
             color: theme[index].color,
-            FontFace: theme[5]
-        };
+        }
     }
 
     return (
         <div>
-            <div>
+            <div className='boxing' style={boxColorCss(4)}>
+                <p style={letterColorCss(0)}> {props.text} </p>
+            </div>
+
+            {props.page === '1' && (
                 <div className='boxing' style={boxColorCss(4)}>
-                    <p style={letterColorCss(0)}> {props.text} </p>
+                    <p style={letterColorCss(0)}> La police du Blog est <a href="https://www.dafont.com/fr/ethnocentric.font" style={letterColorCss(1)}>Ethnocentric</a> </p>
                 </div>
+            )}
+            <div className='picsou' style={boxColorCss(4)}>
+
             </div>
         </div >
     );

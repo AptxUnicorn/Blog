@@ -1,10 +1,12 @@
-:root {
-    --header-image: url('https://i.pinimg.com/originals/dd/2c/9e/dd2c9e089b2ff3d1abb56fecd529e3f6.gif');
-}
+
 
 li {
     display: flex;
     flex-direction: column;
+}
+
+h1 {
+    font-size: xx-large;
 }
 
 .container {
@@ -15,9 +17,7 @@ li {
 }
 .header {
     width: 100%;
-    background-color: $color-1;
-    min-height: 25%;
-    background-image: var(--header-image);
+    min-height: 20%;
     background-size: cover;
 }
 
@@ -25,6 +25,7 @@ li {
     height: 10%;
     background-color: $rightcolor;
     width: 100%;
+    font-size: xx-large;
 }
 .navbar ul {
     display: flex;
@@ -45,25 +46,24 @@ li {
     order: 2;
 }
 
+.sidebar {
+    width: 200px;
+}
+
 #rightSidebar {
     flex: 1;
     order: 3;
-    background-color: $color-1;
 }
+
 #leftSidebar {
     flex: 1;
-    background-color: $color-1;
     order: 1;
 }
 
-.sidebar {
-    width: 200px;
-    font-size: smaller;
-}
 
 .boxing{
-    width: 90%;
-    margin: 5%;
+    width: 95%;
+    margin: 2.5%;
     border-width: 3px;
     border-style: solid;
     padding: 5px;
@@ -75,12 +75,11 @@ li {
     height: 20px;
     border-style:hidden;
     padding: 0px;
-    font-size: larger;
 }
 
 .selector{
     width: 100%;
-    height: 450px;
+    height: 500px;
     overflow-y: scroll;
 }
 
@@ -90,3 +89,13 @@ li {
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
   }
+
+  .picsou{
+    width: 90%;
+    height: 300px;
+    margin: 5%;
+    border-width: 3px;
+    border-style: solid;
+    background-image: url('https://c.tenor.com/v6kBjHYL4ygAAAAC/tenor.gif');
+    background-size: cover;
+}

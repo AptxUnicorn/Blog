@@ -19,7 +19,7 @@ const Navigation = () => {
     }
 
     return (
-        <div>
+        <div style={boxColorCss(2)}>
             <div className="navbar" style={boxColorCss(4)} >
                 <ul>
                     <NavLink to="/Blog/Mainpage" style={letterColorCss(0)} className={(nav) => (nav.isActive ? "nav-active" : "")}>
